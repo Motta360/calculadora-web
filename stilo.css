@@ -1,0 +1,21 @@
+nav{
+    margin-left: 39%;
+    margin-right: 39%;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #363636;
+    color: white;
+}
+
+#principal{
+    margin-left: 39%;
+}
+
+#h1{
+    margin-left: 39%;
+}
+
+body{
+    background-color: #DCDCDC;
+}
