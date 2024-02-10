@@ -21,22 +21,6 @@ btnP.addEventListener("click",
 
 // Fim potencia
 
-// Parte de arredondamento
-function Arredondar(a) {
-    let b = Math.round(a);
-    return b;
-}
-
-let btnR = document.querySelector("#round");
-
-btnR.addEventListener("click",
-    function () {
-        let a = Number(document.querySelector("#txt").value);
-        let b = Arredondar(a);
-        document.querySelector("#txt").value = b;
-    }
-)
-//fim arredondamento
 
 //parte de raiz
 
@@ -74,6 +58,7 @@ btn.addEventListener("click",
         let listaOperacoes = [];
         let listaValoresnovos = [];
         let exp = document.querySelector("#txt").value;
+        console.log(exp);
         for(let i = 0; i < exp.length;i+=1 ){
             if(exp[i]=='+' || exp[i]=='-' || exp[i]=='*' || exp[i]=='/'){
                 listaOperacoes.push(exp[i]);
